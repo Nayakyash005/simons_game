@@ -16,6 +16,14 @@ if(!start){
 }
 });
 
+$(document).click(function (){
+    if(!start){
+        $(".second-title").text(level + "Level");
+        next_seq();
+        start = true;
+    }
+});
+
 
 $(".btn").click(function(){
 
